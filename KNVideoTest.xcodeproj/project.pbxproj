@@ -15,6 +15,15 @@
 		9C0458D61E45665E002EFAEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C0458D41E45665E002EFAEF /* LaunchScreen.storyboard */; };
 		9C0458E11E45665E002EFAEF /* KNVideoTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0458E01E45665E002EFAEF /* KNVideoTestTests.m */; };
 		9C0458EC1E45665E002EFAEF /* KNVideoTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0458EB1E45665E002EFAEF /* KNVideoTestUITests.m */; };
+		9C0458FB1E4567D2002EFAEF /* KNPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0458FA1E4567D2002EFAEF /* KNPictureView.m */; };
+		9C0458FE1E456E6B002EFAEF /* UILabel+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0458FD1E456E6B002EFAEF /* UILabel+Common.m */; };
+		9C0459011E457110002EFAEF /* UIImageView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0459001E457110002EFAEF /* UIImageView+Common.m */; };
+		9C0459041E457220002EFAEF /* UITableView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0459031E457220002EFAEF /* UITableView+Common.m */; };
+		9C0459061E45B80D002EFAEF /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C0459051E45B80D002EFAEF /* GoogleMobileAds.framework */; };
+		9C04590B1E45BDA4002EFAEF /* KNRandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C04590A1E45BDA4002EFAEF /* KNRandViewController.m */; };
+		9C04590E1E45BDD1002EFAEF /* KNRandCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C04590D1E45BDD1002EFAEF /* KNRandCell.m */; };
+		9C0459111E45C210002EFAEF /* UIButton+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0459101E45C210002EFAEF /* UIButton+Common.m */; };
+		9C0A42AC1E46CC3A00680FB4 /* UITableViewController+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0A42AB1E46CC3A00680FB4 /* UITableViewController+Common.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,23 @@
 		9C0458E71E45665E002EFAEF /* KNVideoTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KNVideoTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C0458EB1E45665E002EFAEF /* KNVideoTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNVideoTestUITests.m; sourceTree = "<group>"; };
 		9C0458ED1E45665E002EFAEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C0458F91E4567D2002EFAEF /* KNPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNPictureView.h; sourceTree = "<group>"; };
+		9C0458FA1E4567D2002EFAEF /* KNPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNPictureView.m; sourceTree = "<group>"; };
+		9C0458FC1E456E6B002EFAEF /* UILabel+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Common.h"; sourceTree = "<group>"; };
+		9C0458FD1E456E6B002EFAEF /* UILabel+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Common.m"; sourceTree = "<group>"; };
+		9C0458FF1E457110002EFAEF /* UIImageView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Common.h"; sourceTree = "<group>"; };
+		9C0459001E457110002EFAEF /* UIImageView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Common.m"; sourceTree = "<group>"; };
+		9C0459021E457220002EFAEF /* UITableView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Common.h"; sourceTree = "<group>"; };
+		9C0459031E457220002EFAEF /* UITableView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Common.m"; sourceTree = "<group>"; };
+		9C0459051E45B80D002EFAEF /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		9C0459091E45BDA4002EFAEF /* KNRandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNRandViewController.h; sourceTree = "<group>"; };
+		9C04590A1E45BDA4002EFAEF /* KNRandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNRandViewController.m; sourceTree = "<group>"; };
+		9C04590C1E45BDD1002EFAEF /* KNRandCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNRandCell.h; sourceTree = "<group>"; };
+		9C04590D1E45BDD1002EFAEF /* KNRandCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNRandCell.m; sourceTree = "<group>"; };
+		9C04590F1E45C210002EFAEF /* UIButton+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Common.h"; sourceTree = "<group>"; };
+		9C0459101E45C210002EFAEF /* UIButton+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Common.m"; sourceTree = "<group>"; };
+		9C0A42AA1E46CC3A00680FB4 /* UITableViewController+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewController+Common.h"; sourceTree = "<group>"; };
+		9C0A42AB1E46CC3A00680FB4 /* UITableViewController+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewController+Common.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C0459061E45B80D002EFAEF /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +137,22 @@
 				9C0458D41E45665E002EFAEF /* LaunchScreen.storyboard */,
 				9C0458D71E45665E002EFAEF /* Info.plist */,
 				9C0458C61E45665E002EFAEF /* Supporting Files */,
+				9C0458F91E4567D2002EFAEF /* KNPictureView.h */,
+				9C0458FA1E4567D2002EFAEF /* KNPictureView.m */,
+				9C0458FC1E456E6B002EFAEF /* UILabel+Common.h */,
+				9C0458FD1E456E6B002EFAEF /* UILabel+Common.m */,
+				9C0458FF1E457110002EFAEF /* UIImageView+Common.h */,
+				9C0459001E457110002EFAEF /* UIImageView+Common.m */,
+				9C0459021E457220002EFAEF /* UITableView+Common.h */,
+				9C0459031E457220002EFAEF /* UITableView+Common.m */,
+				9C0459091E45BDA4002EFAEF /* KNRandViewController.h */,
+				9C04590A1E45BDA4002EFAEF /* KNRandViewController.m */,
+				9C04590C1E45BDD1002EFAEF /* KNRandCell.h */,
+				9C04590D1E45BDD1002EFAEF /* KNRandCell.m */,
+				9C04590F1E45C210002EFAEF /* UIButton+Common.h */,
+				9C0459101E45C210002EFAEF /* UIButton+Common.m */,
+				9C0A42AA1E46CC3A00680FB4 /* UITableViewController+Common.h */,
+				9C0A42AB1E46CC3A00680FB4 /* UITableViewController+Common.m */,
 			);
 			path = KNVideoTest;
 			sourceTree = "<group>";
@@ -125,6 +168,7 @@
 		9C0458DF1E45665E002EFAEF /* KNVideoTestTests */ = {
 			isa = PBXGroup;
 			children = (
+				9C0459051E45B80D002EFAEF /* GoogleMobileAds.framework */,
 				9C0458E01E45665E002EFAEF /* KNVideoTestTests.m */,
 				9C0458E21E45665E002EFAEF /* Info.plist */,
 			);
@@ -274,8 +318,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C0458CE1E45665E002EFAEF /* ViewController.m in Sources */,
+				9C0459011E457110002EFAEF /* UIImageView+Common.m in Sources */,
 				9C0458CB1E45665E002EFAEF /* AppDelegate.m in Sources */,
+				9C0459041E457220002EFAEF /* UITableView+Common.m in Sources */,
+				9C0459111E45C210002EFAEF /* UIButton+Common.m in Sources */,
+				9C0A42AC1E46CC3A00680FB4 /* UITableViewController+Common.m in Sources */,
+				9C0458FB1E4567D2002EFAEF /* KNPictureView.m in Sources */,
+				9C0458FE1E456E6B002EFAEF /* UILabel+Common.m in Sources */,
+				9C04590B1E45BDA4002EFAEF /* KNRandViewController.m in Sources */,
 				9C0458C81E45665E002EFAEF /* main.m in Sources */,
+				9C04590E1E45BDD1002EFAEF /* KNRandCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +496,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KNVideoTestTests",
+				);
 				INFOPLIST_FILE = KNVideoTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kennykhuang.KNVideoTestTests;
@@ -456,6 +512,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KNVideoTestTests",
+				);
 				INFOPLIST_FILE = KNVideoTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kennykhuang.KNVideoTestTests;
@@ -505,6 +565,7 @@
 				9C0458F21E45665E002EFAEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C0458F31E45665E002EFAEF /* Build configuration list for PBXNativeTarget "KNVideoTestTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +574,7 @@
 				9C0458F51E45665E002EFAEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C0458F61E45665E002EFAEF /* Build configuration list for PBXNativeTarget "KNVideoTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +583,7 @@
 				9C0458F81E45665E002EFAEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
